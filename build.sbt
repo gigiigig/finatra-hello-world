@@ -3,8 +3,8 @@ import com.typesafe.sbt.SbtNativePackager._
 packageArchetype.java_application
 name := "hello-world-heroku"
 organization := "com.twitter.finatra.example"
-version := "2.1.2"
-scalaVersion := "2.11.7"
+version := "2.2.0"
+scalaVersion := "2.11.8"
 fork in run := true
 parallelExecution in ThisBuild := false
 
